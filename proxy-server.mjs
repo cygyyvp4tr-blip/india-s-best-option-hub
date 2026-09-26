@@ -550,7 +550,7 @@ async function handleNSEProxy(params) {
       apiPath = `/api/equity-stockIndices?index=SECURITIES%20IN%20F%26O`;
       break;
     case "market-data-pre-open":
-      apiPath = "/api/market-data-pre-open?key=FO";
+      apiPath = "/api/market-data-pre-open?key=ALL";
       break;
     case "fii-dii":
       apiPath = "/api/fiidiiTradeReact";
